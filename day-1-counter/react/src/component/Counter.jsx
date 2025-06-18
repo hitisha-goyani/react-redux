@@ -23,27 +23,27 @@ const Counter = () => {
   return (
     <div>
       <div className="max-x-7xl mx-auto text-center">
-        <h2 className="font-bold text-2xl my-3">0</h2>
+        <h2 className="font-bold text-2xl my-3 border border-slate-600 max-w-16 m-auto rounded">{storeCount}</h2>
         <button
           type="button"
           onClick={() => dispatch(inCount())}
-          class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300  rounded-full text-xl p-4 me-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+          class="focus:outline-none text-white bg-slate-400 hover:bg-slate-500 focus:ring-4 focus:ring-slate-500  rounded-full text-xl p-3 me-2  dark:focus:ring-slate-700"
         >
-          +
+          ➕
         </button>
         <button
           type="button"
           onClick={() => dispatch(deCount())}
-          class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300  rounded-full text-xl p-4 me-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+          class="focus:outline-none text-white bg-slate-400 hover:bg-slate-500 focus:ring-4 focus:ring-slate-500  rounded-full text-xl p-3 me-2  dark:focus:ring-slate-700"
         >
-          -
+          ➖
         </button>
         <button
           type="button"
           onClick={() => dispatch(reCount())}
-          class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300  rounded-full text-xl p-4 me-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+          class="focus:outline-none text-white bg-slate-400 hover:bg-slate-500 focus:ring-4 focus:ring-slate-500  rounded-full text-xl p-3 me-2 dark:focus:ring-slate-700"
         >
-          +
+          🔄️
         </button>
       </div>
     </div>
