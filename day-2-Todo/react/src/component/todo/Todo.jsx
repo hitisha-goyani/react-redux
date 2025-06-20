@@ -14,7 +14,6 @@ const Todo = () => {
 
     console.log(todoData)
 
-
     return (
         <>
         <div className='max-w-xl mx-auto border rounded-3 p-2 flex gap-4'>

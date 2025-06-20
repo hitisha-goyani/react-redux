@@ -5,7 +5,7 @@ import { handleDelete, handleStatus } from '../../reducer/Action';
 
 const TodoList = () => {
   const todo = useSelector((state)=>state.todo)
-const dispatch = useDispatch()
+    const dispatch = useDispatch()
 
 
     return (
