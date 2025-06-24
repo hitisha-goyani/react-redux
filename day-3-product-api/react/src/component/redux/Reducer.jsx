@@ -1,5 +1,6 @@
 import { ALL_CATEGORIES, All_PRODUCTS, NEXT_PAGE, SET_CATEGORIES } from "./Action";
 
+
 export const productReducer = (state = { 
                                         product: [],
                                         page: { no: 1, skip: 0 },
